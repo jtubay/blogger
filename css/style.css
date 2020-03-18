@@ -1,10 +1,24 @@
+/*font-family: 'Abel', sans-serif;
+font-family: 'Anton', sans-serif;*/
+
 html,body {
     margin: 0%;
     box-sizing: border-box;
     overflow-x: hidden;
+   
 }
+:root{
+    --Abel: 'Abel', sans-serif;
+    --Anton: 'Anton', sans-serif;
+    --text-gray:#3f4954;
+}
+
+
+
+
 a{
     text-decoration: none;
+    color: var(--text-gray);
 }
 ul{
     list-style-type: none;
@@ -31,6 +45,7 @@ ul{
 .nav .nav-items{
     display: flex;
     margin: 0;
+   
 }
 .nav .nav-items .nav-links {
     padding: 1.6rem 1rem;
@@ -42,6 +57,8 @@ ul{
     font-size: 1.6rem;
     padding: 1rem 0;
     display: block;
+    font-family: var(--Abel);
+   
    
 }
 .nav .social{
