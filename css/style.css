@@ -43,6 +43,7 @@ ul{
     height: 0rem;
     min-height: 10vh;
     overflow: hidden;
+    transition: height .5s ease;
 }
 .nav .nav-menu{
     justify-content: space-around;
@@ -104,6 +105,9 @@ ul{
 }
 .icons:hover{
     color:#a1c4cf;
+}
+.collapse{
+    height: 30rem;
 }
 
 

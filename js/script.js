@@ -1,3 +1,7 @@
 $(document).ready(()=>{
-    alert('booo')
+    const nav = $('.nav');
+    const toggleCollapse = $('.toggle-collapse');
+    toggleCollapse.on('click', () => {
+        nav.toggleClass('collapse')
+    })
 })
