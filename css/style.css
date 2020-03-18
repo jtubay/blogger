@@ -20,7 +20,7 @@ html,body {
 }
 
 
-
+/*navbar start*/
 
 a{
     text-decoration: none;
@@ -109,7 +109,26 @@ ul{
 .collapse{
     height: 30rem;
 }
+/*navbar end*/
 
+/*main*/
+/*tilt*/
+main .site-title{
+    background: url('../images/Background-image.png');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/*title end*/
+
+
+
+
+/*main*/
 
 
 
