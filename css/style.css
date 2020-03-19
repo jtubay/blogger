@@ -179,6 +179,7 @@ main .blog{
     background-position: right;
     height: 100vh;
     width: 100%;
+    background-size: 65%;
 }
 main .blog .blog-post{
     padding-top: 6rem;
