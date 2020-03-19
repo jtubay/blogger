@@ -1,5 +1,7 @@
-/*font-family: 'Abel', sans-serif;
-font-family: 'Anton', sans-serif;*/
+/*
+font-family: 'Abel', sans-serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Lexend Exa', sans-serif;*/
 
 html,body {
     margin: 0%;
@@ -10,7 +12,7 @@ html,body {
 :root{
     --Abel: 'Abel', sans-serif;
     --Anton: 'Anton', sans-serif;
-
+    --Lexend: 'Lexend Exa', sans-serif;
     --sky:linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 
     --text-gray:#3f4954;
@@ -28,6 +30,25 @@ a{
 }
 ul{
     list-style-type: none;
+}
+h1{
+    font-family: var(--Lexend);
+    font-size: 2.5rem;
+}
+h3{
+    font-family: var(--Abel);
+    font-size: 1.3rem;
+}
+h2{
+    font-family: var(--white);
+}
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--Lexend);
+    cursor: pointer;
 }
 
 .flex-row{
@@ -121,6 +142,7 @@ main .site-title{
     justify-content: center;
     text-align: center;
     color: var(--white);
+    
 }
 main .site-title h1, h3 {
     margin: .3rem ;
@@ -130,6 +152,10 @@ main .site-title .btn{
     background: var(--sky);
 }
 
+main .site-title .btn:hover{
+    background: transparent;
+    border: 1px solid var(--white);
+}
 
 main .site-title .site-background{
   padding-top: 10rem;  
