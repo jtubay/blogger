@@ -4,4 +4,7 @@ $(document).ready(()=>{
     toggleCollapse.on('click', () => {
         nav.toggleClass('collapse')
     })
+    $('.owl-carousel').owlCarousel()
+
+
 })
