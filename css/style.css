@@ -54,6 +54,13 @@ button.btn{
     cursor: pointer;
 }
 
+
+.container{
+    margin: 0 5vw;
+
+}
+
+
 .flex-row{
     display: flex;
     flex-direction: row;
