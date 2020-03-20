@@ -1,3 +1,5 @@
+
+
 const responsive ={
     0:{
         items:1
@@ -32,6 +34,6 @@ $(document).ready(()=>{
             scrollTop:0
         }, 1000);
     })
-
+    
 
 })
