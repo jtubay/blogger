@@ -408,6 +408,10 @@ footer.footer .follow div i{
     color: var(--white);
     padding: 0 .4rem;
 }
+.socialI{
+    color: var(--white);
+    padding: 0 .4rem;
+}
 
 footer.footer .rights{
     justify-content: center;

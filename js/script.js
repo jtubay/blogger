@@ -11,6 +11,11 @@ $(document).ready(()=>{
         dots:false,
         nav:true,
         navText:[$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')]
+    });
+    $('.move-up').on('click', ()=>{
+        $('html, body').animate({
+            scrollTop:0
+        }, 1000);
     })
 
 
